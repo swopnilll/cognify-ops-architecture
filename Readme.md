@@ -23,3 +23,14 @@
   - Get responses grounded in your project data using **RAG (Retrieval Augmented Generation)**.
 
   - Custom-trained on your workflows via **fine-tuned foundation models** (AWS Bedrock/OpenAI).
+
+# Architechture and Plannign Thought Process
+
+## Frontend
+
+1. [Sprint Board Notes](notes/fe/sprint-board.md)
+2. [Authentication Flow Notes](notes/fe/auth.md)
+
+## Backend
+
+1. [Authentication Server Side Flow Notes](notes/be/auth-ss.md)
