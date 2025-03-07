@@ -26,6 +26,13 @@
 7. Support internationalization.
 8. Enhance observability and tracking.
 
+### Edge Cases
+
+1. Support Creating a new Ticket
+2. Support Infinite Scrolling
+   - Intersection Observer Along Side Offset Based Infinite Scrolling
+3. Drag and Drop of Tickets in Real Time
+
 # SSR vs. CSR
 
 ## Key Considerations
@@ -74,3 +81,11 @@ The reasoning provided here is generally correct:
   Combining SSR for the initial load and CSR for subsequent interactions is a practical strategy to balance the advantages of both methods.
 
 This approach allows you to start quickly with CSR and later optimize by incorporating SSR where it will have the most impact.
+
+# Draggable And Tickets
+
+1. Use Draggable Apis with dragggable = true, ondragstart
+2. If a new ticket is created, it should be in the last item in Todo Column.
+3. We need to maintain ticket vertical positioning within the column.
+4. If a ticket is moved from one column to another, we remove that ticket from previous column
+   and append it to the end of the list of tickets for the new column.

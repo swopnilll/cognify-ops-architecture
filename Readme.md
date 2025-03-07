@@ -34,3 +34,7 @@
 ## Backend
 
 1. [Authentication Server Side Flow Notes](notes/be/auth-ss.md)
+
+## Database
+
+2. [Jira Feature ERD](notes/be/erd-web-app-only.md)
