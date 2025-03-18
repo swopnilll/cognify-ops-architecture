@@ -38,3 +38,7 @@
 ## Database
 
 2. [Jira Feature ERD](notes/be/erd-web-app-only.md)
+
+## Ai
+
+2. [Initial Thought](notes/ai/initial-plan.md)
